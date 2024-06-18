@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
     <div id="about" className="w-full min-h-screen">
-      <div className="w-full h-full px-7 py-20 flex flex-col items-start justify-start gap-12 lg:px-16">
+      <div className="w-full h-full px-7  flex flex-col items-start justify-start gap-12 md:py-20 lg:px-16">
         <h1 className="text-sectionTitleSmall font-bold lg:text-sectionTitleLarge">
           About
         </h1>

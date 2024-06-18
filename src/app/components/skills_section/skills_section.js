@@ -21,21 +21,21 @@ export default function SkillsSection() {
         <div className="w-full flex items-center justify-start flex-wrap gap-5 md:gap-0">
           <div className="w-full h-[350px] px-7 py-5 md:w-[50%] lg:w-[calc(100%/3)] border-[2px] border-slate-400 flex flex-col items-center justify-start gap-8 md:border-[3px]">
             <SkillsDisplay
-              icon={<DesktopMacOutlinedIcon />}
+              icon={<DesktopMacOutlinedIcon sx={{ color: "#8da0b5" }} />}
               heading={"Frontend"}
               data={frontEndSkills}
             />
           </div>
           <div className="w-full h-[350px] px-7 py-5 md:w-[50%] lg:w-[calc(100%/3)] border-[2px] border-slate-400 flex flex-col items-center justify-start gap-8 md:border-[3px] md:border-l-0">
             <SkillsDisplay
-              icon={<DvrOutlinedIcon />}
+              icon={<DvrOutlinedIcon sx={{ color: "#8da0b5" }} />}
               heading={"Backend"}
               data={backEndSkills}
             />
           </div>
           <div className="w-full h-[350px] px-7 py-5 md:w-[50%] lg:w-[calc(100%/3)] border-[2px] border-slate-400 flex flex-col items-center justify-start gap-8 md:border-[3px] md:border-t-0 lg:md:border-l-0 lg:md:border-t-[3px]">
             <SkillsDisplay
-              icon={<TerminalOutlinedIcon />}
+              icon={<TerminalOutlinedIcon sx={{ color: "#8da0b5" }} />}
               heading={"Others"}
               data={otherSkills}
             />

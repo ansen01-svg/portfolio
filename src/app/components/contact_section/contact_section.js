@@ -1,6 +1,6 @@
 export default function ContactSection() {
   return (
-    <div id="about" className="w-full bg-black">
+    <div id="contact" className="w-full">
       <div className="w-full h-full px-7 py-20 flex flex-col items-start justify-start gap-12 lg:px-16">
         <h1 className="text-sectionTitleSmall font-bold lg:text-sectionTitleLarge">
           Contact me
