@@ -10,6 +10,8 @@ module.exports = {
       backgroundColor: {
         primary: "#1a191d",
         secondary: "rgba(136, 136, 136, .05)",
+        purple: "#182633",
+        purpleLight: "#1E2E3D",
       },
       colors: {
         primary: "#fff",
@@ -20,7 +22,7 @@ module.exports = {
         palePurple: "#8da0b5",
       },
       fontSize: {
-        sectionTitleSmall: "52px",
+        sectionTitleSmall: "40px",
         sectionTitleLarge: "62px",
         sectionSubTitleSmall: "26px",
         sectionSubTitleLarge: "30px",
