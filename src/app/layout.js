@@ -1,7 +1,6 @@
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
+import LayoutContent from "./components/layout_content/layout_content";
 
 const inter = Roboto_Mono({ subsets: ["latin"] });
 
@@ -15,11 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <main className="max-w-[100vw] bg-primary text-primary">
-          {children}
-        </main>
-        <Footer />
+        <LayoutContent>{children}</LayoutContent>
       </body>
     </html>
   );
