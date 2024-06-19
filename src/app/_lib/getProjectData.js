@@ -1,7 +1,7 @@
 const getProjectsData = async (id) => {
   try {
     const response = await fetch(
-      `http://localhost:3000/api/projects?projectTitle=${id}`
+      `${process.env.NEXT_PUBLIC_DOMAIN}/api/projects?projectTitle=${id}`
     );
 
     if (!response.ok) {
