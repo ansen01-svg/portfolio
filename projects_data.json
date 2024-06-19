@@ -1,0 +1,35 @@
+[
+  {
+    "id": 0,
+    "projectTitle": "Carko - Affordable Car Rentals",
+    "description1": "A cloud-based resource management service, designed for large emergency organizations across Victoria, with capability to expand to other states and countries. Siims aims to facilitate requesting, deploying and tracking resources to incidents and emergencies with a simple and intuitive user interface.",
+    "description2": "Started as a proof of concept to demonstrate the possibility to request, deploy and track resources across agencies within 1 application, as opposed to many silo applications in the existing systems. This concept was implemented entirely by me within 4 months and is nearly 80% finished. My roles included concept development, user interface design, usability engineering, software design and coding.",
+    "images": [
+      "/images/carko_cars.png",
+      "/images/carko_home.png",
+      "/images/carko_single_car.png"
+    ]
+  },
+  {
+    "id": 1,
+    "projectTitle": "Cali - Live Football Scores And Odds",
+    "description1": "A cloud-based resource management service, designed for large emergency organizations across Victoria, with capability to expand to other states and countries. Siims aims to facilitate requesting, deploying and tracking resources to incidents and emergencies with a simple and intuitive user interface.",
+    "description2": "Started as a proof of concept to demonstrate the possibility to request, deploy and track resources across agencies within 1 application, as opposed to many silo applications in the existing systems. This concept was implemented entirely by me within 4 months and is nearly 80% finished. My roles included concept development, user interface design, usability engineering, software design and coding.",
+    "images": [
+      "/images/carko_cars.png",
+      "/images/carko_home.png",
+      "/images/carko_single_car.png"
+    ]
+  },
+  {
+    "id": 0,
+    "projectTitle": "Mantra - Myntra frontend Clone",
+    "description1": "A cloud-based resource management service, designed for large emergency organizations across Victoria, with capability to expand to other states and countries. Siims aims to facilitate requesting, deploying and tracking resources to incidents and emergencies with a simple and intuitive user interface.",
+    "description2": "Started as a proof of concept to demonstrate the possibility to request, deploy and track resources across agencies within 1 application, as opposed to many silo applications in the existing systems. This concept was implemented entirely by me within 4 months and is nearly 80% finished. My roles included concept development, user interface design, usability engineering, software design and coding.",
+    "images": [
+      "/images/carko_cars.png",
+      "/images/carko_home.png",
+      "/images/carko_single_car.png"
+    ]
+  }
+]

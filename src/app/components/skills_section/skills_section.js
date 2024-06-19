@@ -18,7 +18,7 @@ export default function SkillsSection() {
         <h1 className="text-sectionTitleSmall font-bold lg:text-sectionTitleLarge">
           Skills
         </h1>
-        <div className="w-full flex items-center justify-start flex-wrap gap-5 md:gap-0">
+        <div className="w-full flex items-center justify-start flex-wrap gap-7 md:gap-0">
           <div className="w-full h-[350px] px-7 py-5 md:w-[50%] lg:w-[calc(100%/3)] border-[2px] border-slate-400 flex flex-col items-center justify-start gap-8 md:border-[3px]">
             <SkillsDisplay
               icon={<DesktopMacOutlinedIcon sx={{ color: "#8da0b5" }} />}
