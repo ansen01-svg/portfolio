@@ -1,8 +1,11 @@
-import { Roboto_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import LayoutContent from "./components/layout_content/layout_content";
 
-const inter = Roboto_Mono({ subsets: ["latin"] });
+const inter = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata = {
   title: "Ansen Bey - Web developer",
