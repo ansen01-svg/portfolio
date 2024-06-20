@@ -7,7 +7,7 @@ export default function ContactSection() {
         </h1>
         <div className="flex flex-col items-start justify-start gap-5">
           <p>{`Have an exciting project you need help with? Send me an email!`}</p>
-          <p className="text-palePurple">ansen@ansenbey.com</p>
+          <p className="text-palePurple">ansenbeyc73@gmail.com</p>
         </div>
       </div>
     </div>

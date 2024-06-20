@@ -8,8 +8,6 @@ export default async function ProjectId({ params }) {
   const { id } = params;
   const data = await getProjectsData(id);
 
-  console.log(data);
-
   if (data.length < 1) {
     return <Error />;
   }

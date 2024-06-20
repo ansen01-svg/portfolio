@@ -6,9 +6,9 @@
     "description2": "Carko.in's mission is to become the most reliable and trusted car rental service in Guwahati. The platform emphasizes quality, reliability, and customer satisfaction, striving to meet the highest standards in the car rental industry. As part of its future plans, Carko.in is working on streamlining the booking process, ensuring that each car listed will be available for real-time booking. This upcoming feature will enhance the convenience for users, allowing them to reserve their preferred vehicles with just a few clicks. Stay tuned for updates as Carko.in continues to innovate and improve its services, making car rentals in Guwahati easier and more accessible than ever before.",
     "technologiesUsed": ["Next.js", "Material UI", "MongoDB"],
     "images": [
-      "/images/carko_cars.png",
-      "/images/carko_home.png",
-      "/images/carko_single_car.png"
+      "/images/ck_home.png",
+      "/images/ck_cars.png",
+      "/images/ck_single.png"
     ]
   },
   {
@@ -26,21 +26,21 @@
       "Puppeteer"
     ],
     "images": [
-      "/images/carko_cars.png",
-      "/images/carko_home.png",
-      "/images/carko_single_car.png"
+      "/images/cl_home.png",
+      "/images/cl_home.png",
+      "/images/cl_home.png"
     ]
   },
   {
     "id": 0,
-    "projectTitle": "Mantra - Myntra frontend Clone",
-    "description1": "Mantra is a frontend clone project inspired by the popular e-commerce giant, Myntra. This endeavor aims to faithfully replicate Myntra's visually captivating user interface and product presentation. At its core, Mantra serves as a showcase of frontend development skills, highlighting proficiency in HTML, CSS, and JavaScript, along with modern frontend frameworks like React. The project meticulously recreates Myntra's design elements, including product listings and detailed product imagery, providing users with an immersive experience akin to browsing on the original platform.",
-    "description2": "While Mantra currently focuses solely on displaying product images without functional capabilities such as shopping cart management or checkout processes, it underscores the developer's commitment to mastering frontend technologies crucial for building robust web applications.",
+    "projectTitle": "Twiggy - Swiggy frontend Clone",
+    "description1": "Twiggy is an innovative front-end clone of the popular food delivery platform Swiggy, meticulously designed to emulate the look and feel of the original site. This project focuses on showcasing a wide variety of food items with high-quality images that reflect the diverse culinary offerings typically found on Swiggy. Although Twiggy does not currently support functional capabilities such as order processing, user authentication, or real-time tracking, it serves as an impressive demonstration of advanced front-end development skills and a keen eye for design aesthetics.",
+    "description2": "Crafted using cutting-edge web technologies like HTML, CSS, JavaScript, and React, Twiggy highlights the developer's ability to recreate complex user interfaces and responsive layouts. The project captures the essence of Swiggy's intuitive design, from the visually appealing food categories to the detailed product listings.",
     "technologiesUsed": ["React.js", "Styled components"],
     "images": [
-      "/images/carko_cars.png",
-      "/images/carko_home.png",
-      "/images/carko_single_car.png"
+      "/images/tw_home.png",
+      "/images/tw_menu.png",
+      "/images/tw_hotel.png"
     ]
   }
 ]
