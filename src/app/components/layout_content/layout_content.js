@@ -1,5 +1,6 @@
 "use client";
 
+import { Analytics } from "@vercel/analytics/react";
 import { useState } from "react";
 import { useMediaQuery } from "@mui/material";
 import Header from "../header/header";
@@ -18,7 +19,10 @@ export default function LayoutContent({ children }) {
   return (
     <>
       <Header toggleDrawer={toggleDrawer} />
-      <main className="max-w-[100vw] bg-primary text-primary">{children}</main>
+      <main className="max-w-[100vw] bg-primary text-primary">
+        {children}
+        <Analytics />
+      </main>
       {tabScreen && <DrawerHolder open={open} toggleDrawer={toggleDrawer} />}
       <Footer />
     </>
