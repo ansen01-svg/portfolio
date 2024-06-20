@@ -6,6 +6,16 @@ export default function ProjectDetails({ data }) {
       </h1>
       <p>{data.description1}</p>
       <p>{data.description2}</p>
+      <p>
+        Technologies used -{" "}
+        {data.technologiesUsed.map((tech, index) => {
+          if (index === data.technologiesUsed.length - 1) {
+            return <span key={index}>{tech}</span>;
+          }
+
+          return <span key={index}>{tech}, </span>;
+        })}
+      </p>
     </div>
   );
 }

@@ -3,10 +3,13 @@ import Header from "./components/header/header";
 import ProjectDetails from "./components/project_details/project_details";
 import ImagesHolder from "./components/images_holder/images_holder";
 import getProjectsData from "@/app/_lib/getProjectData";
+import { revalidatePath } from "next/cache";
 
 export default async function ProjectId({ params }) {
   const { id } = params;
   const data = await getProjectsData(id);
+
+  revalidatePath("/projects/carko");
 
   if (data.length < 1) {
     return <Error />;

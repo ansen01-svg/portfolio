@@ -2,8 +2,9 @@
   {
     "id": 0,
     "projectTitle": "Carko - Affordable Car Rentals",
-    "description1": "A cloud-based resource management service, designed for large emergency organizations across Victoria, with capability to expand to other states and countries. Siims aims to facilitate requesting, deploying and tracking resources to incidents and emergencies with a simple and intuitive user interface.",
-    "description2": "Started as a proof of concept to demonstrate the possibility to request, deploy and track resources across agencies within 1 application, as opposed to many silo applications in the existing systems. This concept was implemented entirely by me within 4 months and is nearly 80% finished. My roles included concept development, user interface design, usability engineering, software design and coding.",
+    "description1": "Carko.in is a premier car rental website dedicated to serving the residents and visitors of Guwahati. As the go-to platform for car rentals in the region, Carko.in offers a wide selection of vehicles tailored to meet diverse travel needs. Whether you're looking for a compact car for city commutes or a spacious SUV for family outings, Carko.in has you covered. The website is designed with user convenience in mind, providing a seamless browsing experience that allows users to easily explore available car options, compare features, and make informed decisions. Although the cars displayed on the website are currently not available for booking, Carko.in is committed to expanding its services and ensuring that all vehicles will soon be ready for rental to provide the best possible experience to its customers.",
+    "description2": "Carko.in's mission is to become the most reliable and trusted car rental service in Guwahati. The platform emphasizes quality, reliability, and customer satisfaction, striving to meet the highest standards in the car rental industry. As part of its future plans, Carko.in is working on streamlining the booking process, ensuring that each car listed will be available for real-time booking. This upcoming feature will enhance the convenience for users, allowing them to reserve their preferred vehicles with just a few clicks. Stay tuned for updates as Carko.in continues to innovate and improve its services, making car rentals in Guwahati easier and more accessible than ever before.",
+    "technologiesUsed": ["Next.js", "Material UI", "MongoDB"],
     "images": [
       "/images/carko_cars.png",
       "/images/carko_home.png",
@@ -13,8 +14,17 @@
   {
     "id": 1,
     "projectTitle": "Cali - Live Football Scores And Odds",
-    "description1": "A cloud-based resource management service, designed for large emergency organizations across Victoria, with capability to expand to other states and countries. Siims aims to facilitate requesting, deploying and tracking resources to incidents and emergencies with a simple and intuitive user interface.",
-    "description2": "Started as a proof of concept to demonstrate the possibility to request, deploy and track resources across agencies within 1 application, as opposed to many silo applications in the existing systems. This concept was implemented entirely by me within 4 months and is nearly 80% finished. My roles included concept development, user interface design, usability engineering, software design and coding.",
+    "description1": "Cali is a comprehensive platform dedicated to delivering live football scores from all major football leagues around the globe. Whether you're a fan of the English Premier League, La Liga, Serie A, or any other league, Cali ensures that you stay updated with real-time scores and match updates. Our website is designed to provide a seamless and user-friendly experience, allowing football enthusiasts to follow their favorite teams and players with ease.",
+    "description2": "In addition to live scores, Cali integrates betting odds from 1xbet, offering users a comprehensive view of the betting landscape. This feature allows users to make informed betting decisions based on the latest odds. Furthermore, Cali includes a sophisticated odds and winnings calculator, enabling users to calculate potential winnings accurately.",
+    "technologiesUsed": [
+      "React.js",
+      "Styled components",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io",
+      "Puppeteer"
+    ],
     "images": [
       "/images/carko_cars.png",
       "/images/carko_home.png",
@@ -24,8 +34,9 @@
   {
     "id": 0,
     "projectTitle": "Mantra - Myntra frontend Clone",
-    "description1": "A cloud-based resource management service, designed for large emergency organizations across Victoria, with capability to expand to other states and countries. Siims aims to facilitate requesting, deploying and tracking resources to incidents and emergencies with a simple and intuitive user interface.",
-    "description2": "Started as a proof of concept to demonstrate the possibility to request, deploy and track resources across agencies within 1 application, as opposed to many silo applications in the existing systems. This concept was implemented entirely by me within 4 months and is nearly 80% finished. My roles included concept development, user interface design, usability engineering, software design and coding.",
+    "description1": "Mantra is a frontend clone project inspired by the popular e-commerce giant, Myntra. This endeavor aims to faithfully replicate Myntra's visually captivating user interface and product presentation. At its core, Mantra serves as a showcase of frontend development skills, highlighting proficiency in HTML, CSS, and JavaScript, along with modern frontend frameworks like React. The project meticulously recreates Myntra's design elements, including product listings and detailed product imagery, providing users with an immersive experience akin to browsing on the original platform.",
+    "description2": "While Mantra currently focuses solely on displaying product images without functional capabilities such as shopping cart management or checkout processes, it underscores the developer's commitment to mastering frontend technologies crucial for building robust web applications.",
+    "technologiesUsed": ["React.js", "Styled components"],
     "images": [
       "/images/carko_cars.png",
       "/images/carko_home.png",
