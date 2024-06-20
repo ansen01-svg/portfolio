@@ -30,7 +30,7 @@ export default function ProjectsSection() {
             <ProjectDisplay
               src={twiggyPic}
               linkTo="/projects/Twiggy"
-              projectTitle="Twiggy - Swiggy frontend Clone"
+              projectTitle="Twiggy - Swiggy Frontend Clone"
             />
           </div>
         </div>
