@@ -5,8 +5,10 @@ export default function ContactSection() {
         <h1 className="text-sectionTitleSmall font-bold lg:text-sectionTitleLarge">
           Contact me
         </h1>
-        <p>{`Have an exciting project you need help with? Send me an email!`}</p>
-        <p className="text-palePurple">ansen@ansenbey.com</p>
+        <div className="flex flex-col items-start justify-start gap-5">
+          <p>{`Have an exciting project you need help with? Send me an email!`}</p>
+          <p className="text-palePurple">ansen@ansenbey.com</p>
+        </div>
       </div>
     </div>
   );

@@ -1,3 +1,6 @@
+import logo from "../../assets/logo.png";
+import Link from "next/link";
+import Image from "next/image";
 import { useMediaQuery } from "@mui/material";
 import DragHandleRoundedIcon from "@mui/icons-material/DragHandleRounded";
 
@@ -17,7 +20,15 @@ export default function LogoAndMenuIcon({ toggleDrawer }) {
         </div>
       )}
       <div>
-        <h1 className="text-blue text-[30px] font-semibold">AnsenBey</h1>
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="logo"
+            width={152}
+            height={45}
+            style={{ objectFit: "cover" }}
+          />
+        </Link>
       </div>
     </div>
   );
