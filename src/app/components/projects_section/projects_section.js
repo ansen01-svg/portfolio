@@ -1,5 +1,8 @@
 import ProjectDisplay from "./project_display";
-import carkoPic from "../../assets/carko1.png";
+
+import carkoPic from "../../assets/ck_home.png";
+import caliPic from "../../assets/cl_home.png";
+import twiggyPic from "../../assets/tw_home.png";
 
 export default function ProjectsSection() {
   return (
@@ -9,25 +12,25 @@ export default function ProjectsSection() {
           My Work
         </h1>
         <div className="w-full flex flex-row items-center justify-center flex-wrap gap-7 lg:gap-10">
-          <div className="w-full h-[362px] md:w-[calc((100%-28px)/2)] lg:w-[calc((100%-80px)/3)]">
+          <div className="w-full h-[280px] md:w-[calc((100%-28px)/2)] lg:w-[calc((100%-80px)/3)]">
             <ProjectDisplay
               src={carkoPic}
               linkTo="/projects/Carko"
               projectTitle="Carko - Affordable car rentals"
             />
           </div>
-          <div className="w-full h-[362px] md:w-[calc((100%-28px)/2)] lg:w-[calc((100%-80px)/3)]">
+          <div className="w-full h-[280px] md:w-[calc((100%-28px)/2)] lg:w-[calc((100%-80px)/3)]">
             <ProjectDisplay
-              src={carkoPic}
+              src={caliPic}
               linkTo="/projects/Cali"
               projectTitle="Cali - Live Football Scores And Odds"
             />
           </div>
-          <div className="w-full h-[362px] lg:w-[calc((100%-80px)/3)]">
+          <div className="w-full h-[280px] lg:w-[calc((100%-80px)/3)]">
             <ProjectDisplay
-              src={carkoPic}
-              linkTo="/projects/Mantra"
-              projectTitle="Mantra - Myntra frontend Clone"
+              src={twiggyPic}
+              linkTo="/projects/Twiggy"
+              projectTitle="Twiggy - Swiggy frontend Clone"
             />
           </div>
         </div>

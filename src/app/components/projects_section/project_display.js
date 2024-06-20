@@ -6,7 +6,7 @@ export default function ProjectDisplay(props) {
 
   return (
     <div className="w-full h-full">
-      <div className="w-full min-h-[262px] bg-slate-700 rounded-t-md relative overflow-hidden z-10">
+      <div className="w-full min-h-[180px] bg-slate-700 rounded-t-md relative overflow-hidden z-10">
         <Image
           className="rounded-t-md"
           src={src}
