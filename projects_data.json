@@ -33,7 +33,7 @@
   },
   {
     "id": 0,
-    "projectTitle": "Twiggy - Swiggy frontend Clone",
+    "projectTitle": "Twiggy - Swiggy Frontend Clone",
     "description1": "Twiggy is an innovative front-end clone of the popular food delivery platform Swiggy, meticulously designed to emulate the look and feel of the original site. This project focuses on showcasing a wide variety of food items with high-quality images that reflect the diverse culinary offerings typically found on Swiggy. Although Twiggy does not currently support functional capabilities such as order processing, user authentication, or real-time tracking, it serves as an impressive demonstration of advanced front-end development skills and a keen eye for design aesthetics.",
     "description2": "Crafted using cutting-edge web technologies like HTML, CSS, JavaScript, and React, Twiggy highlights the developer's ability to recreate complex user interfaces and responsive layouts. The project captures the essence of Swiggy's intuitive design, from the visually appealing food categories to the detailed product listings.",
     "technologiesUsed": ["React.js", "Styled components"],

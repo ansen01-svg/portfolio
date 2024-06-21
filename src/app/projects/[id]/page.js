@@ -1,12 +1,13 @@
+import { use } from "react";
 import Error from "./components/error/error";
 import Header from "./components/header/header";
 import ProjectDetails from "./components/project_details/project_details";
 import ImagesHolder from "./components/images_holder/images_holder";
 import getProjectsData from "@/app/_lib/getProjectData";
 
-export default async function ProjectId({ params }) {
+export default function ProjectId({ params }) {
   const { id } = params;
-  const data = await getProjectsData(id);
+  const data = use(getProjectsData(id));
 
   if (data.length < 1) {
     return <Error />;
