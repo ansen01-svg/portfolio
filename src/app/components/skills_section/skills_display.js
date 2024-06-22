@@ -15,7 +15,7 @@ export default function SkillsDisplay(props) {
         </div>
         <div className="w-full flex items-center justify-start gap-6">
           <div className="w-[1px] h-full bg-white"></div>
-          <div className="h-full py-3">
+          <div className="py-3">
             <ul className="flex flex-col items-start justify-start gap-2">
               {data.map((skill) => {
                 return <li key={skill.id}>{skill.skill}</li>;
