@@ -14,7 +14,7 @@ export default function HeroSection() {
           Ansen Bey
         </h1>
         <h2 className="text-[20px] font-semibold text-center md:text-[22px]">
-          Web developer
+          Fullstack developer
         </h2>
       </div>
     </div>
