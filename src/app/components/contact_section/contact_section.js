@@ -1,3 +1,7 @@
+import Link from "next/link";
+
+const email = "ansenbeyc73@gmail.com";
+
 export default function ContactSection() {
   return (
     <div id="contact" className="w-full">
@@ -7,7 +11,9 @@ export default function ContactSection() {
         </h1>
         <div className="flex flex-col items-start justify-start gap-5">
           <p>{`Have an exciting project you need help with? Send me an email!`}</p>
-          <p className="text-palePurple">ansenbeyc73@gmail.com</p>
+          <Link href={`mailto:${email}`} className="text-blue">
+            {email}
+          </Link>
         </div>
       </div>
     </div>
