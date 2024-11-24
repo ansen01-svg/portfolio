@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <nav className="text-primary absolute left-[calc(50%-512.89px/2)]">
-      <ul className="flex items-center justify-center gap-5">
+      <ul className="flex items-center justify-center gap-8">
         {navItems.map((item) => {
           return (
             <li
