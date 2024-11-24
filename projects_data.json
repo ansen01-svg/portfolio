@@ -1,6 +1,19 @@
 [
   {
     "id": 0,
+    "projectTitle": "Jobgregate - Centralized Job Search Platform",
+    "description1": "Jobgregate.in is an innovative job aggregation platform designed to simplify job hunting by centralizing listings from major platforms like LinkedIn and Glassdoor. With advanced filters, users can effortlessly sort jobs by type, location, and posting date. Jobgregate delivers a seamless browsing experience, enabling users to explore multiple opportunities in one place while redirecting them to the original postings for applications.",
+    "description2": "Jobgregate aims to revolutionize the job search process by providing a unified platform for job seekers to access diverse opportunities. By leveraging cutting-edge technologies, Jobgregate enhances search efficiency, user engagement, and overall satisfaction. The platform features server-side rendering (SSR) and incremental static regeneration (ISR) to boost performance, achieving a 100% SEO score on Google, reducing page load times by 65%, and increasing organic traffic by 55%.",
+    "technologiesUsed": ["Next.js", "Tailwind CSS"],
+    "liveProject": "https://jobgregate.in",
+    "images": [
+      "/images/jobgregate-ss.png",
+      "/images/jobgregate-ss2.png",
+      "/images/jobgregate-ss3.png"
+    ]
+  },
+  {
+    "id": 1,
     "projectTitle": "Carko - Affordable Car Rentals",
     "description1": "Carko.in is a premier car rental website dedicated to serving the residents and visitors of Guwahati. As the go-to platform for car rentals in the region, Carko.in offers a wide selection of vehicles tailored to meet diverse travel needs. Whether you're looking for a compact car for city commutes or a spacious SUV for family outings, Carko.in has you covered. The website is designed with user convenience in mind, providing a seamless browsing experience that allows users to easily explore available car options, compare features, and make informed decisions. Although the cars displayed on the website are currently not available for booking, Carko.in is committed to expanding its services and ensuring that all vehicles will soon be ready for rental to provide the best possible experience to its customers.",
     "description2": "Carko.in's mission is to become the most reliable and trusted car rental service in Guwahati. The platform emphasizes quality, reliability, and customer satisfaction, striving to meet the highest standards in the car rental industry. As part of its future plans, Carko.in is working on streamlining the booking process, ensuring that each car listed will be available for real-time booking. This upcoming feature will enhance the convenience for users, allowing them to reserve their preferred vehicles with just a few clicks. Stay tuned for updates as Carko.in continues to innovate and improve its services, making car rentals in Guwahati easier and more accessible than ever before.",
@@ -13,28 +26,7 @@
     ]
   },
   {
-    "id": 1,
-    "projectTitle": "Cali - Live Football Scores And Odds",
-    "description1": "Cali is a comprehensive platform dedicated to delivering live football scores from all major football leagues around the globe. Whether you're a fan of the English Premier League, La Liga, Serie A, or any other league, Cali ensures that you stay updated with real-time scores and match updates. Our website is designed to provide a seamless and user-friendly experience, allowing football enthusiasts to follow their favorite teams and players with ease.",
-    "description2": "In addition to live scores, Cali integrates betting odds from 1xbet, offering users a comprehensive view of the betting landscape. This feature allows users to make informed betting decisions based on the latest odds. Furthermore, Cali includes a sophisticated odds and winnings calculator, enabling users to calculate potential winnings accurately.",
-    "technologiesUsed": [
-      "React.js",
-      "Styled components",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Socket.io",
-      "Puppeteer"
-    ],
-    "liveProject": "",
-    "images": [
-      "/images/cl_home.png",
-      "/images/cl_home.png",
-      "/images/cl_home.png"
-    ]
-  },
-  {
-    "id": 0,
+    "id": 2,
     "projectTitle": "Twiggy - Swiggy Frontend Clone",
     "description1": "Twiggy is an innovative front-end clone of the popular food delivery platform Swiggy, meticulously designed to emulate the look and feel of the original site. This project focuses on showcasing a wide variety of food items with high-quality images that reflect the diverse culinary offerings typically found on Swiggy. Although Twiggy does not currently support functional capabilities such as order processing, user authentication, or real-time tracking, it serves as an impressive demonstration of advanced front-end development skills and a keen eye for design aesthetics.",
     "description2": "Crafted using cutting-edge web technologies like HTML, CSS, JavaScript, and React, Twiggy highlights the developer's ability to recreate complex user interfaces and responsive layouts. The project captures the essence of Swiggy's intuitive design, from the visually appealing food categories to the detailed product listings.",
