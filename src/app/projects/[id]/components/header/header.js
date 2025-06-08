@@ -1,20 +1,26 @@
 "use client";
 
 import Link from "next/link";
-import NavigateNextRoundedIcon from "@mui/icons-material/NavigateNextRounded";
+import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 export default function Header({ projectTitle }) {
   return (
-    <div className="w-full mt-10 text-secondaryDarker font-semibold flex items-center justify-start gap-1 lg:mt-20">
-      <Link href={"/"} className="hover:text-blue">
+    <div className="w-full max-w-6xl mx-auto mt-10 text-text-secondary font-medium flex items-center justify-start gap-2 lg:mt-20">
+      <Link
+        href="/"
+        className="hover:text-accent transition-colors duration-300"
+      >
         Home
       </Link>
-      <NavigateNextRoundedIcon fontSize="small" />
-      <Link href={"/#projects"} className="hover:text-blue">
-        My work
+      <ChevronRightIcon className="w-4 h-4" />
+      <Link
+        href="/#projects"
+        className="hover:text-accent transition-colors duration-300"
+      >
+        Projects
       </Link>
-      <NavigateNextRoundedIcon fontSize="small" />
-      <p>{projectTitle}</p>
+      <ChevronRightIcon className="w-4 h-4" />
+      <span className="text-text-primary">{projectTitle}</span>
     </div>
   );
 }

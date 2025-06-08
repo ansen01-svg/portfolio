@@ -1,17 +1,33 @@
 "use client";
 
-import ReportProblemOutlinedIcon from "@mui/icons-material/ReportProblemOutlined";
+import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 export default function Error() {
   return (
-    <div className="max-w-[100vw] h-[calc(100vh-61px-208px)]">
-      <div className="w-full h-full px-7  flex flex-col items-center justify-center gap-7 lg:px-16">
-        <span className="px-6 py-6 rounded-full bg-secondary">
-          <ReportProblemOutlinedIcon fontSize="large" />
-        </span>
-        <h1 className="text-sectionSubTitleLarge text-center font-semibold md:text-sectionSubTitleSmall">
-          An error occured. Refresh the page and try again.
-        </h1>
+    <div className="max-w-[100vw] min-h-screen bg-primary flex items-center justify-center">
+      <div className="w-full h-full px-7 flex flex-col items-center justify-center gap-8 lg:px-16">
+        <div className="p-6 bg-background-card rounded-full">
+          <ExclamationTriangleIcon className="w-16 h-16 text-accent" />
+        </div>
+
+        <div className="text-center space-y-4">
+          <h1 className="text-3xl font-bold text-text-primary">
+            Project Not Found
+          </h1>
+          <p className="text-lg text-text-secondary max-w-md">
+            {`The project you're looking for doesn't exist or has been moved.`}
+          </p>
+        </div>
+
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/#projects" className="btn-primary">
+            View All Projects
+          </Link>
+          <Link href="/" className="btn-secondary">
+            Go Home
+          </Link>
+        </div>
       </div>
     </div>
   );

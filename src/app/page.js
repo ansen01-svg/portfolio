@@ -11,8 +11,9 @@ import ScrollTop from "./components/scroll_top/scroll_top";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // show or hide scroll to top button
+  // Show or hide scroll to top button
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.scrollY > 400) {
@@ -28,40 +29,54 @@ export default function Home() {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
+  // Loading effect
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const scrollToTop = () => {
-    const scrollDuration = 1000;
-    const cosParameter = window.scrollY / 2;
-    let scrollCount = 0,
-      oldTimestamp = null;
-
-    function step(newTimestamp) {
-      if (oldTimestamp !== null) {
-        // If duration is 0 scrollCount will be Infinity
-        scrollCount +=
-          (Math.PI * (newTimestamp - oldTimestamp)) / scrollDuration;
-        if (scrollCount >= Math.PI) window.scrollTo(0, 0);
-        if (window.scrollY === 0) return;
-        window.scrollTo(
-          0,
-          Math.round(cosParameter + cosParameter * Math.cos(scrollCount))
-        );
-      }
-      oldTimestamp = newTimestamp;
-      window.requestAnimationFrame(step);
-    }
-
-    window.requestAnimationFrame(step);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
+  // Loading screen
+  if (isLoading) {
+    return (
+      <div className="fixed inset-0 bg-primary flex items-center justify-center z-50">
+        <div className="text-center">
+          <div className="w-16 h-16 bg-gradient-to-br from-accent to-blue-500 rounded-2xl flex items-center justify-center mb-4 animate-pulse">
+            <span className="text-primary font-bold text-xl">AB</span>
+          </div>
+          <div className="text-text-secondary">Loading...</div>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <>
+    <div className="min-h-screen bg-primary">
       <HeroSection />
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
       <QualificationsSection />
       <ContactSection />
+
+      {/* Scroll to top button */}
       {isVisible && <ScrollTop handleClick={scrollToTop} />}
-    </>
+
+      {/* Page transition overlay */}
+      <div
+        className={`fixed inset-0 bg-primary z-40 pointer-events-none transition-opacity duration-1000 ${
+          isLoading ? "opacity-100" : "opacity-0"
+        }`}
+      />
+    </div>
   );
 }

@@ -14,8 +14,8 @@ export default function ProjectId({ params }) {
   }
 
   return (
-    <div className="max-w-[100vw]">
-      <div className="w-full px-7 flex flex-col items-center justify-center gap-12 lg:px-16">
+    <div className="max-w-[100vw] bg-primary min-h-screen">
+      <div className="w-full px-6 md:px-12 lg:px-20 flex flex-col items-center justify-center gap-16 pt-24 pb-20">
         <Header projectTitle={params.id} />
         <ProjectDetails data={data[0]} />
         <ImagesHolder images={data[0].images} />

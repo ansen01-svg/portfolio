@@ -1,3 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+    background-color: #0f0f23;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+
+  /* Ensure all text is visible */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #ffffff !important;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1a1a2e;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #00d4aa;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00b894;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent hover:bg-accentHover text-primary font-semibold py-3 px-6 rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-accent text-accent hover:bg-accent hover:text-primary font-semibold py-3 px-6 rounded-lg transition-all duration-300 ease-in-out;
+  }
+
+  .card {
+    @apply bg-background-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 ease-in-out;
+  }
+
+  .section-padding {
+    @apply py-24 px-6 md:py-32 md:px-12 lg:px-20;
+  }
+
+  .container-custom {
+    @apply max-w-8xl mx-auto;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #00d4aa 0%, #60a5fa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #00d4aa; /* Fallback color */
+    display: inline-block; /* Ensures gradient works properly */
+  }
+
+  /* Fallback for browsers that don't support background-clip: text */
+  @supports not (background-clip: text) {
+    .gradient-text {
+      color: #00d4aa;
+    }
+  }
+
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .animate-on-scroll.animated {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

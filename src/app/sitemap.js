@@ -1,25 +1,39 @@
-export default async function sitemap() {
+export default function sitemap() {
+  const baseUrl = process.env.NEXT_PUBLIC_DOMAIN || "https://ansenbey.com";
+
   return [
     {
-      url: process.env.NEXT_PUBLIC_DOMAIN,
+      url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: `${process.env.NEXT_PUBLIC_DOMAIN}/projects/Carko`,
+      url: `${baseUrl}/privacy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/projects/Jobgregate`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${process.env.NEXT_PUBLIC_DOMAIN}/projects/Cali`,
+      url: `${baseUrl}/projects/Carko`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${process.env.NEXT_PUBLIC_DOMAIN}/projects/Twiggy`,
+      url: `${baseUrl}/projects/Twiggy`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
