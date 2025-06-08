@@ -37,7 +37,7 @@ export default function ProjectDisplay({ project, reverse = false }) {
               <div className="absolute bottom-6 left-6 right-6">
                 <Link
                   href={linkTo}
-                  className="flex items-center justify-center gap-2 bg-accent hover:bg-accentHover text-primary font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform translate-y-4 group-hover:translate-y-0"
+                  className="flex items-center justify-center gap-2 bg-accent hover:bg-accentHover text-primary font-semibold py-3 px-4 rounded-lg transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 text-sm"
                 >
                   View Case Study
                   <ArrowUpRightIcon className="w-4 h-4" />
@@ -94,10 +94,10 @@ export default function ProjectDisplay({ project, reverse = false }) {
         <div className="pt-4">
           <Link
             href={linkTo}
-            className="inline-flex items-center gap-2 text-accent hover:text-accentHover font-semibold transition-all duration-300 group"
+            className="inline-flex items-center gap-1.5 text-accent hover:text-accentHover font-medium transition-all duration-300 group text-base"
           >
             <span>View Case Study</span>
-            <ArrowUpRightIcon className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
+            <ArrowUpRightIcon className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
           </Link>
         </div>
       </div>
