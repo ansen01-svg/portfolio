@@ -1,5 +1,72 @@
 [
   {
+    "id": "tscs",
+    "projectTitle": "TSCS Exams and Students Management Portal",
+    "subtitle": "Comprehensive Educational Management System",
+    "description1": "TSCS is a full-stack web application designed for managing civil services exam preparation at Takshashila School. The platform features comprehensive student enrollment, progress tracking, mock test administration, and a powerful administrative dashboard with real-time analytics.",
+    "description2": "Built with modern technologies including Next.js and TypeScript, the system provides seamless user authentication through Clerk, efficient data management with MongoDB and Redis caching, and a responsive interface that works across all devices. The platform streamlines the entire educational workflow from student registration to exam results.",
+    "technologiesUsed": [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Clerk",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis"
+    ],
+    "features": [
+      "Student enrollment and profile management",
+      "Mock test creation and administration",
+      "Real-time progress tracking and analytics",
+      "Administrative dashboard with insights",
+      "Secure authentication and authorization",
+      "Performance monitoring and reporting",
+      "Responsive design for all devices",
+      "Redis caching for optimal performance"
+    ],
+    "liveProject": "https://exams.takshashilascs.com/",
+    "githubRepo": "",
+    "timeline": "6 months (2024)",
+    "images": [
+      "/images/ep1.png",
+      "/images/ep2.png",
+      "/images/ep3.png"
+    ]
+  },
+  {
+    "id": "antariksh",
+    "projectTitle": "Antariksh Information Technology",
+    "subtitle": "Corporate Website & Service Portfolio",
+    "description1": "Antariksh IT is a modern, responsive corporate website that showcases comprehensive IT services and solutions. The platform features dynamic content management, detailed service portfolios, client testimonials, and integrated contact systems designed to enhance business communication.",
+    "description2": "Developed using Next.js and TypeScript with Tailwind CSS for styling, the website provides seamless user experience with Clerk authentication for admin access. The platform includes MongoDB for content management and features optimized performance with server-side rendering and responsive design principles.",
+    "technologiesUsed": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Clerk",
+      "MongoDB"
+    ],
+    "features": [
+      "Dynamic service portfolio showcase",
+      "Client testimonials and case studies",
+      "Integrated contact and inquiry system",
+      "Admin panel for content management",
+      "SEO optimized pages",
+      "Responsive design across all devices",
+      "Fast loading with optimized images",
+      "Professional business presentation"
+    ],
+    "liveProject": "https://antarikshinfotech.com/",
+    "githubRepo": "",
+    "timeline": "4 months (2024)",
+    "images": [
+      "/images/at1.png",
+      "/images/at2.png",
+      "/images/at3.png"
+    ]
+  },
+  {
     "id": "jobgregate",
     "projectTitle": "Jobgregate",
     "subtitle": "Centralized Job Search Platform",
@@ -59,37 +126,6 @@
       "/images/ck_home.png",
       "/images/ck_cars.png",
       "/images/ck_single.png"
-    ]
-  },
-  {
-    "id": "twiggy",
-    "projectTitle": "Twiggy",
-    "subtitle": "Swiggy Frontend Clone",
-    "description1": "Twiggy is a pixel-perfect recreation of Swiggy's frontend interface, built using modern React practices and responsive design principles. This project demonstrates proficiency in component architecture and state management.",
-    "description2": "The application features dynamic restaurant listings, cart functionality, and order tracking. Special attention was paid to performance optimization and accessibility, ensuring a smooth user experience across all devices.",
-    "technologiesUsed": [
-      "React.js",
-      "CSS3",
-      "JavaScript ES6+",
-      "React Router",
-      "Context API",
-      "Local Storage"
-    ],
-    "features": [
-      "Pixel-perfect UI recreation",
-      "Dynamic restaurant and menu listings",
-      "Shopping cart functionality",
-      "Order tracking system",
-      "Search and filter capabilities",
-      "Responsive mobile-first design"
-    ],
-    "liveProject": "https://twiggy-demo.vercel.app",
-    "githubRepo": "https://github.com/ansenbey/twiggy",
-    "timeline": "2 months (2023)",
-    "images": [
-      "/images/tw_home.png",
-      "/images/tw_hotel.png",
-      "/images/tw_menu.png"
     ]
   }
 ]
