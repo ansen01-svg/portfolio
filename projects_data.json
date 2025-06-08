@@ -1,11 +1,29 @@
 [
   {
-    "id": 0,
-    "projectTitle": "Jobgregate - Centralized Job Search Platform",
-    "description1": "Jobgregate.in is an innovative job aggregation platform designed to simplify job hunting by centralizing listings from major platforms like LinkedIn and Glassdoor. With advanced filters, users can effortlessly sort jobs by type, location, and posting date. Jobgregate delivers a seamless browsing experience, enabling users to explore multiple opportunities in one place while redirecting them to the original postings for applications.",
-    "description2": "Jobgregate aims to revolutionize the job search process by providing a unified platform for job seekers to access diverse opportunities. By leveraging cutting-edge technologies, Jobgregate enhances search efficiency, user engagement, and overall satisfaction. The platform features server-side rendering (SSR) and incremental static regeneration (ISR) to boost performance, achieving a 100% SEO score on Google, reducing page load times by 65%, and increasing organic traffic by 55%.",
-    "technologiesUsed": ["Next.js", "Tailwind CSS"],
-    "liveProject": "https://jobgregate.in",
+    "id": "jobgregate",
+    "projectTitle": "Jobgregate",
+    "subtitle": "Centralized Job Search Platform",
+    "description1": "Jobgregate is a comprehensive job search platform that aggregates listings from multiple sources, providing users with a streamlined job hunting experience. The platform features advanced filtering, real-time notifications, and personalized job recommendations.",
+    "description2": "Built with modern web technologies, Jobgregate offers a responsive design that works seamlessly across all devices. The application includes user authentication, profile management, and application tracking features to enhance the job search process.",
+    "technologiesUsed": [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "MongoDB",
+      "NextAuth",
+      "MaterialUI"
+    ],
+    "features": [
+      "Real-time job aggregation from multiple sources",
+      "Advanced filtering and search capabilities",
+      "User authentication and profile management",
+      "Application tracking and status updates",
+      "Personalized job recommendations",
+      "Responsive design for all devices"
+    ],
+    "liveProject": "https://www.jobgregate.in/",
+    "githubRepo": "https://github.com/ansen01-svg/hirely",
+    "timeline": "3 months (2024)",
     "images": [
       "/images/jobgregate-ss.png",
       "/images/jobgregate-ss2.png",
@@ -13,12 +31,30 @@
     ]
   },
   {
-    "id": 1,
-    "projectTitle": "Carko - Affordable Car Rentals",
-    "description1": "Carko.in is a premier car rental website dedicated to serving the residents and visitors of Guwahati. As the go-to platform for car rentals in the region, Carko.in offers a wide selection of vehicles tailored to meet diverse travel needs. Whether you're looking for a compact car for city commutes or a spacious SUV for family outings, Carko.in has you covered. The website is designed with user convenience in mind, providing a seamless browsing experience that allows users to easily explore available car options, compare features, and make informed decisions. Although the cars displayed on the website are currently not available for booking, Carko.in is committed to expanding its services and ensuring that all vehicles will soon be ready for rental to provide the best possible experience to its customers.",
-    "description2": "Carko.in's mission is to become the most reliable and trusted car rental service in Guwahati. The platform emphasizes quality, reliability, and customer satisfaction, striving to meet the highest standards in the car rental industry. As part of its future plans, Carko.in is working on streamlining the booking process, ensuring that each car listed will be available for real-time booking. This upcoming feature will enhance the convenience for users, allowing them to reserve their preferred vehicles with just a few clicks. Stay tuned for updates as Carko.in continues to innovate and improve its services, making car rentals in Guwahati easier and more accessible than ever before.",
-    "technologiesUsed": ["Next.js", "Material UI", "MongoDB"],
-    "liveProject": "https://www.carko.in",
+    "id": "carko",
+    "projectTitle": "Carko",
+    "subtitle": "Affordable Car Rentals",
+    "description1": "Carko is a modern car rental platform designed to make vehicle booking simple and affordable. The application features an intuitive interface for browsing available cars, checking real-time availability, and managing bookings.",
+    "description2": "The platform includes advanced features like GPS tracking, damage reporting, and automated billing. Built with Next.js and TypeScript, Carko delivers exceptional performance and type safety throughout the application.",
+    "technologiesUsed": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe API"
+    ],
+    "features": [
+      "Real-time car availability checking",
+      "Seamless booking and payment processing",
+      "GPS tracking and navigation",
+      "Damage reporting system",
+      "User reviews and ratings",
+      "Multi-language support"
+    ],
+    "liveProject": "https://carko-demo.vercel.app",
+    "githubRepo": "https://github.com/ansenbey/carko",
+    "timeline": "4 months (2024)",
     "images": [
       "/images/ck_home.png",
       "/images/ck_cars.png",
@@ -26,16 +62,34 @@
     ]
   },
   {
-    "id": 2,
-    "projectTitle": "Twiggy - Swiggy Frontend Clone",
-    "description1": "Twiggy is an innovative front-end clone of the popular food delivery platform Swiggy, meticulously designed to emulate the look and feel of the original site. This project focuses on showcasing a wide variety of food items with high-quality images that reflect the diverse culinary offerings typically found on Swiggy. Although Twiggy does not currently support functional capabilities such as order processing, user authentication, or real-time tracking, it serves as an impressive demonstration of advanced front-end development skills and a keen eye for design aesthetics.",
-    "description2": "Crafted using cutting-edge web technologies like HTML, CSS, JavaScript, and React, Twiggy highlights the developer's ability to recreate complex user interfaces and responsive layouts. The project captures the essence of Swiggy's intuitive design, from the visually appealing food categories to the detailed product listings.",
-    "technologiesUsed": ["React.js", "Styled components"],
-    "liveProject": "",
+    "id": "twiggy",
+    "projectTitle": "Twiggy",
+    "subtitle": "Swiggy Frontend Clone",
+    "description1": "Twiggy is a pixel-perfect recreation of Swiggy's frontend interface, built using modern React practices and responsive design principles. This project demonstrates proficiency in component architecture and state management.",
+    "description2": "The application features dynamic restaurant listings, cart functionality, and order tracking. Special attention was paid to performance optimization and accessibility, ensuring a smooth user experience across all devices.",
+    "technologiesUsed": [
+      "React.js",
+      "CSS3",
+      "JavaScript ES6+",
+      "React Router",
+      "Context API",
+      "Local Storage"
+    ],
+    "features": [
+      "Pixel-perfect UI recreation",
+      "Dynamic restaurant and menu listings",
+      "Shopping cart functionality",
+      "Order tracking system",
+      "Search and filter capabilities",
+      "Responsive mobile-first design"
+    ],
+    "liveProject": "https://twiggy-demo.vercel.app",
+    "githubRepo": "https://github.com/ansenbey/twiggy",
+    "timeline": "2 months (2023)",
     "images": [
       "/images/tw_home.png",
-      "/images/tw_menu.png",
-      "/images/tw_hotel.png"
+      "/images/tw_hotel.png",
+      "/images/tw_menu.png"
     ]
   }
 ]
