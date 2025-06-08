@@ -77,7 +77,7 @@ const qualifications = [
         title: "Node.js Development",
         institution: "Udemy",
         location: "Online",
-        period: "2022",
+        period: "2020",
         description:
           "Backend development, API design, and database management.",
       },
