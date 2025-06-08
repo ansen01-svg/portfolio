@@ -4,23 +4,46 @@ import { useEffect, useRef } from "react";
 import ProjectDisplay from "./project_display";
 
 import carkoPic from "../../assets/ck_home.png";
-import twiggyPic from "../../assets/tw_home.png";
+import epPic from "../../assets/ep1.png";
+import atPic from "../../assets/at1.png";
 import jobgregatePic from "../../assets/jobgregate-ss.png";
 
 const projects = [
   {
     id: 1,
+    title: "TSCS Exams and Students Management Portal",
+    subtitle: "Comprehensive Educational Management System",
+    description:
+      "A full-stack web application for managing civil services exam preparation, featuring student enrollment, progress tracking, mock tests, and administrative dashboard with real-time analytics.",
+    image: epPic,
+    linkTo: "/projects/TSCS",
+    tags: ["Next.js","Tailwind CSS","Typescript","Clerk", "Node.js", "Express.js", "MongoDB", "Redis"],
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Antariksh Information Technology",
+    subtitle: "Corporate Website & Service Portfolio",
+    description:
+      "A modern, responsive corporate website showcasing IT services and solutions with dynamic content management, client testimonials, and integrated contact systems.",
+    image: atPic,
+    linkTo: "/projects/Antariksh",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS","Clerk", "MongoDB"],
+    featured: true,
+  },
+  {
+    id: 3,
     title: "Jobgregate",
     subtitle: "Centralized Job Search Platform",
     description:
       "A comprehensive job search platform that aggregates listings from multiple sources, providing users with a streamlined job hunting experience.",
     image: jobgregatePic,
     linkTo: "/projects/Jobgregate",
-    tags: ["React", "Node.js", "MongoDB", "Express"],
-    featured: true,
+    tags: ["Next.js", "Node.js", "MongoDB", "Express"],
+    featured: false,
   },
   {
-    id: 2,
+    id: 4,
     title: "Carko",
     subtitle: "Affordable Car Rentals",
     description:
@@ -28,17 +51,6 @@ const projects = [
     image: carkoPic,
     linkTo: "/projects/Carko",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    featured: false,
-  },
-  {
-    id: 3,
-    title: "Twiggy",
-    subtitle: "Swiggy Frontend Clone",
-    description:
-      "A pixel-perfect recreation of Swiggy's frontend with modern React practices and responsive design.",
-    image: twiggyPic,
-    linkTo: "/projects/Twiggy",
-    tags: ["React", "CSS3", "JavaScript"],
     featured: false,
   },
 ];
