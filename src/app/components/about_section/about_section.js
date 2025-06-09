@@ -110,17 +110,19 @@ export default function AboutSection() {
 
           {/* Right column - Skills & Image */}
           <div className="space-y-12">
-            {/* Profile image placeholder */}
+            {/* Profile image */}
             <div className="animate-on-scroll">
-              <div className="relative w-80 h-80 mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-br from-accent to-blue-500 rounded-2xl blur-xl opacity-20"></div>
-                <div className="relative w-full h-full bg-background-card rounded-2xl border border-accent/20 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-24 h-24 bg-accent/20 rounded-full mx-auto mb-6 flex items-center justify-center">
-                      <span className="text-3xl">👨‍💻</span>
-                    </div>
-                    <p className="text-text-secondary">Professional Photo</p>
-                  </div>
+              <div className="relative w-40 h-40 mx-auto">
+                <div className="absolute inset-0 bg-gradient-to-br from-accent to-blue-500 rounded-full blur-xl opacity-20"></div>
+                <div className="relative w-full h-full bg-background-card rounded-full border border-accent/20 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="/images/propic.jpg"
+                    alt="Professional Photo"
+                    width={160}
+                    height={160}
+                    className="object-cover w-full h-full"
+                    priority
+                  />
                 </div>
               </div>
             </div>
