@@ -43,7 +43,7 @@ const qualifications = [
         title: "Full-Stack Developer",
         institution: "Freelance",
         location: "Remote",
-        period: "2020 - 2022",
+        period: "2020 - 2024",
         description:
           "Developing modern web applications using React, Node.js, and cloud technologies.",
       },
