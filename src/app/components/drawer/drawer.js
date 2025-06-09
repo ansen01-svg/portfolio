@@ -62,7 +62,7 @@ export default function DrawerHolder(props) {
         <div className="absolute bottom-0 left-0 right-0 p-6 border-t border-accent/20">
           <div className="flex gap-4 justify-center">
             <a
-              href="https://linkedin.com/in/ansenbey"
+              href="https://www.linkedin.com/in/ansen-bey-b27977209/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-secondary hover:text-accent transition-colors duration-300"
@@ -70,7 +70,7 @@ export default function DrawerHolder(props) {
               LinkedIn
             </a>
             <a
-              href="https://github.com/ansenbey"
+              href="https://github.com/ansen01-svg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-secondary hover:text-accent transition-colors duration-300"
