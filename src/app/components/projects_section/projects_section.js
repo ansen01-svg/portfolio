@@ -3,36 +3,66 @@
 import { useEffect, useRef } from "react";
 import ProjectDisplay from "./project_display";
 
+import atPic from "../../assets/at1.png";
 import carkoPic from "../../assets/ck_home.png";
 import epPic from "../../assets/ep1.png";
-import atPic from "../../assets/at1.png";
+import ipmsPic from "../../assets/ip1.png";
 import jobgregatePic from "../../assets/jobgregate-ss.png";
 
 const projects = [
   {
     id: 1,
+    title: "iPMS - Integrated Project Management System",
+    subtitle: "Government Development Project Tracking Platform",
+    description:
+      "A comprehensive project management system for tracking government development projects across multiple districts with secure role-based authentication, real-time monitoring, and automated progress tracking.",
+    image: ipmsPic,
+    linkTo: "/projects/iPMS",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadCN UI",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+    ],
+    featured: true,
+  },
+  {
+    id: 2,
     title: "TSCS Exams and Students Management Portal",
     subtitle: "Comprehensive Educational Management System",
     description:
       "A full-stack web application for managing civil services exam preparation, featuring student enrollment, progress tracking, mock tests, and administrative dashboard with real-time analytics.",
     image: epPic,
     linkTo: "/projects/TSCS",
-    tags: ["Next.js","Tailwind CSS","Typescript","Clerk", "Node.js", "Express.js", "MongoDB", "Redis"],
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "Typescript",
+      "Clerk",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+    ],
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "Antariksh Information Technology",
     subtitle: "Corporate Website & Service Portfolio",
     description:
       "A modern, responsive corporate website showcasing IT services and solutions with dynamic content management, client testimonials, and integrated contact systems.",
     image: atPic,
     linkTo: "/projects/Antariksh",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS","Clerk", "MongoDB"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "MongoDB"],
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "Jobgregate",
     subtitle: "Centralized Job Search Platform",
     description:
@@ -43,7 +73,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Carko",
     subtitle: "Affordable Car Rentals",
     description:

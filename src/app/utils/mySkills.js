@@ -1,7 +1,7 @@
 export const frontEndSkills = [
   {
     id: 0,
-    skill: "HTML / CSS",
+    skill: "HTML5 / CSS3",
   },
   {
     id: 1,
@@ -32,10 +32,14 @@ export const backEndSkills = [
   },
   {
     id: 2,
-    skill: "MongoDb",
+    skill: "Nest.js",
   },
   {
     id: 3,
+    skill: "MongoDb",
+  },
+  {
+    id: 4,
     skill: "MySQL",
   },
 ];

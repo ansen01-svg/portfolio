@@ -1,5 +1,38 @@
 [
   {
+    "id": "ipms",
+    "projectTitle": "iPMS - Integrated Project Management System",
+    "subtitle": "Government Development Project Tracking Platform",
+    "description1": "iPMS is a comprehensive project management system designed to track and monitor government development projects across multiple districts in Assam. The platform features secure role-based authentication with multi-tier access control for government officials across 6 hierarchical roles (JE, AEE, CE, MD, Admin, External Viewers).",
+    "description2": "Built with cutting-edge technologies, the system provides real-time project monitoring dashboard with automated progress tracking and financial milestone alerts, reducing manual project evaluation time by 85% and improving project completion accuracy to 98.5%. The platform streamlines the entire project lifecycle from initiation to completion for APTDCL's development schemes.",
+    "technologiesUsed": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadCN UI",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "Jira",
+      "Slack"
+    ],
+    "features": [
+      "Secure role-based authentication with 6-tier access control",
+      "Real-time project monitoring and progress tracking",
+      "Automated financial milestone alerts and reporting",
+      "Multi-district project management capabilities",
+      "Comprehensive administrative dashboard with analytics",
+      "Cross-functional team collaboration tools",
+      "Performance monitoring and evaluation systems",
+      "Government compliance and audit trail features"
+    ],
+    "liveProject": "https://aptdcl.in/",
+    "githubRepo": "",
+    "timeline": "8 months (2025 - Present)",
+    "images": ["/images/ip1.png", "/images/ip2.png", "/images/ip3.png"]
+  },
+  {
     "id": "tscs",
     "projectTitle": "TSCS Exams and Students Management Portal",
     "subtitle": "Comprehensive Educational Management System",
@@ -28,11 +61,7 @@
     "liveProject": "https://exams.takshashilascs.com/",
     "githubRepo": "",
     "timeline": "6 months (2024)",
-    "images": [
-      "/images/ep1.png",
-      "/images/ep2.png",
-      "/images/ep3.png"
-    ]
+    "images": ["/images/ep1.png", "/images/ep2.png", "/images/ep3.png"]
   },
   {
     "id": "antariksh",
@@ -60,11 +89,7 @@
     "liveProject": "https://antarikshinfotech.com/",
     "githubRepo": "",
     "timeline": "4 months (2024)",
-    "images": [
-      "/images/at1.png",
-      "/images/at2.png",
-      "/images/at3.png"
-    ]
+    "images": ["/images/at1.png", "/images/at2.png", "/images/at3.png"]
   },
   {
     "id": "jobgregate",

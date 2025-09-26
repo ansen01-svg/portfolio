@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function HeroSection() {
   const [isVisible, setIsVisible] = useState(false);
