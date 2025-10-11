@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import {
   AcademicCapIcon,
   BriefcaseIcon,
   TrophyIcon,
 } from "@heroicons/react/24/outline";
+import { useEffect, useRef } from "react";
 
 const qualifications = [
   {
@@ -31,30 +31,39 @@ const qualifications = [
     items: [
       {
         id: 1,
-        title: "Full-Stack Developer",
-        institution: "Takshashila School of Civil Services",
+        title: "Team Leader & Full-Stack Developer",
+        institution: "Gratia Technology Private Limited",
         location: "Guwahati, India",
-        period: "2024 - Present",
+        period: "June 2025 - Present",
         description:
-          "Developing modern web applications using React, Node.js, and cloud technologies.",
+          "Architected and developed comprehensive Integrated Project Management System designed to track government development projects across several districts. Implemented secure role-based authentication system with 6-tier access control for government officials. Developed real-time project monitoring dashboard with automated progress tracking and financial milestone alerts, reducing manual project evaluation time by 85% and improving project completion accuracy to 98.5%. Led cross-functional development team of 6, delivering complete system on schedule.",
       },
       {
         id: 2,
         title: "Full-Stack Developer",
-        institution: "Freelance",
-        location: "Remote",
-        period: "2020 - 2024",
+        institution: "Takshashila School of Civil Services",
+        location: "Guwahati, India",
+        period: "May 2024 - June 2025",
         description:
-          "Developing modern web applications using React, Node.js, and cloud technologies.",
+          "Architected and developed a comprehensive exam and student management system capable of handling 500+ concurrent exam attempts with 99.9% uptime. Implemented real-time exam monitoring and anti-cheating mechanisms. Integrated automated grading system with instant result generation, reducing manual evaluation overhead and enhancing assessment efficiency.",
       },
       {
         id: 3,
+        title: "Full-Stack Developer",
+        institution: "Freelance",
+        location: "Remote",
+        period: "June 2020 - March 2024",
+        description:
+          "Delivered end-to-end web solutions for diverse clients across multiple industries, specializing in MERN stack development. Built scalable e-commerce platforms, content management systems, and custom business applications. Collaborated directly with stakeholders to translate business requirements into technical solutions, consistently meeting project deadlines and exceeding client expectations.",
+      },
+      {
+        id: 4,
         title: "Frontend Developer",
         institution: "Personal Projects",
         location: "Guwahati, India",
-        period: "2019 - 2020",
+        period: "February 2019 - June 2020",
         description:
-          "Built responsive websites and learned modern web development frameworks.",
+          "Developed responsive web applications using modern JavaScript frameworks and libraries. Mastered core frontend technologies including React, HTML5, CSS3, and JavaScript ES6+. Built portfolio of interactive projects demonstrating proficiency in UI/UX design principles and responsive design patterns.",
       },
     ],
   },
@@ -65,21 +74,21 @@ const qualifications = [
     items: [
       {
         id: 1,
-        title: "React Development",
-        institution: "Udemy",
-        location: "Online",
-        period: "2019",
-        description:
-          "Advanced React patterns, hooks, and performance optimization.",
-      },
-      {
-        id: 2,
         title: "Node.js Development",
         institution: "Udemy",
         location: "Online",
         period: "2020",
         description:
           "Backend development, API design, and database management.",
+      },
+      {
+        id: 2,
+        title: "React Development",
+        institution: "Udemy",
+        location: "Online",
+        period: "2019",
+        description:
+          "Advanced React patterns, hooks, and performance optimization.",
       },
     ],
   },
